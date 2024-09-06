@@ -1,9 +1,15 @@
 # Golf Ball Track and Count
 
-This repository is designed to track and count golf balls in video footage using object detection and line crossing. The project utilizes a custom-trained YOLOv8 model and integrates the `Supervision` library for video frame processing, object tracking, and zone counting.
+This repository contains code for detecting and tracking golf balls in video footage. We use YOLOv8 for object detection, trained on a custom dataset. The `Supervision` library is used for drawing annotations, defining zones, and tracking objects across frames. The project is capable of counting objects as they cross a predefined line.
+
+## Demo
+
+
+https://github.com/user-attachments/assets/807ffb31-b4db-476d-8f27-244dd246ee00
+
 
 ## Table of Contents
-- [Overview](#overview)
+
 - [Features](#features)
 - [Installation](#installation)
 - [Usage](#usage)
@@ -11,9 +17,6 @@ This repository is designed to track and count golf balls in video footage using
 - [Training the Model](#training-the-model)
 - [Tracking and Counting](#tracking-and-counting)
 - [References](#references)
-
-## Overview
-This repository contains code for detecting and tracking golf balls in video footage. We use YOLOv8 for object detection, trained on a custom dataset. The `Supervision` library is used for drawing annotations, defining zones, and tracking objects across frames. The project is capable of counting objects as they cross a predefined line.
 
 ## Features
 - Detect golf balls using a custom-trained YOLOv8 model.
